@@ -2,6 +2,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const api = "./api";
 const generateMarkdown = require("./generateMarkdown");
+const path = require("path");
 
 // array of questions for user
 const questions = [
@@ -24,12 +25,15 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+	return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // function to initialize program
 function init() {}
-inquirer.prompt(questions).then((response) => {
-	console.log(response);
+inquirer.prompt(questions).then((answer) => {
+	console.log(answer);
+	writeToFile("README.md", generateMarkdown(answer));
 });
 // function call to initialize program
 init();

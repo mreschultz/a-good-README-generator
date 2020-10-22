@@ -9,6 +9,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"axios": "^0.20.0",
 		"inquire": "^0.4.8",
 		"inquirer": "^6.5.2"
 	}
