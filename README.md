@@ -1,33 +1,37 @@
 # A Good README Generator
 
-## An app that auto-generates README files using javascript, node and npm.
+## It is a simple app that uses Node.js to generate a series of questions when completed auto-generates a readme file.
 
-This app uses inquirer npm, javascript, node and ES6.
+## Table of Contents
 
-## 1. This was created during the Columbia University Full-stack web development bootcamp.
+1.  This was completed during the Columbia University Full-stack Web Development Bootcamp.
+2.  It was written using Javascript.
+3.  It has the Inquirer and Axios npm's installed in it.
 
-This was a homework assignment.
+## Install the App
 
-## Download it from Github.
+By downloading the files from Github.
 
-https://mreschultz.github.io/a-good-README-generator/
+## Run the App
 
-## Using node you run the js file.
-
-The program uses markdown as well.
+By typing in the integrated terminal in VS Code the command 'node index.js'.
 
 ## Contributors
 
-- mreschultz
+I worked on this app.
 
-## I ran multiple quality assurance checks to make sure it is functional.
+## Tests
 
-## email me about it: ems348@georgetown.edu
+I ran tests to make sure it is functional.
 
-## mreschultz is my Github username.
+## Contact me
 
-My Github page is https://github.com/mreschultz
+My email is: ems348@georgetown.edu
 
-## MIT
+## MyGithub username
 
-This is the license.
+mreschultz
+
+## License
+
+MIT
