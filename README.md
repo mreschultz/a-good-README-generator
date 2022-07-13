@@ -24,10 +24,6 @@ I worked on this app.
 
 I ran tests to make sure it is functional.
 
-## Contact me
-
-My email is: ems348@georgetown.edu
-
 ## MyGithub username
 
 mreschultz
